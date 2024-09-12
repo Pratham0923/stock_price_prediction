@@ -5,7 +5,6 @@ from keras.models import load_model
 import matplotlib.pyplot as plt
 import yfinance as yf
 
-#hello first commit
 st.title("Stock Price Predictor App")
 
 stock = st.text_input("Enter the Stock ID", "GOOG")
